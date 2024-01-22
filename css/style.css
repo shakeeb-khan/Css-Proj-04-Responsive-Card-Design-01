@@ -1,0 +1,63 @@
+@font-face {
+  font-family: Mako-regular;
+  src: url(/assets/Mako-Regular.woff2);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(27, 27, 27);
+  font-family: Mako-regular;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+  background-color: #fff;
+  width: 270px;
+  
+  margin: 10px;
+  border-radius: 15px;
+}
+.card-img{
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.card-1{
+  background-image: url(/assets/sport1.jpg);
+}
+.card-2{
+  background-image: url(/assets/sport2.jpg);
+}
+.card-3{
+  background-image: url(/assets/sport3.jpg);
+}
+.card h2{
+  padding: 10px;
+}
+.card p{
+  padding: 10px;
+}
+.card a{
+  background-color: black;
+  color: #fff;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration: none;
+}
+.card:hover{
+  background-color: rgb(62, 62, 62);
+  color: #fff;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
